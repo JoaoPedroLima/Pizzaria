@@ -10,7 +10,7 @@ public class ConectarBD {
       Connection conexaoBanco = null;  
      
        Class.forName("com.mysql.jdbc.Driver");
-       conexaoBanco = DriverManager.getConnection("jdbc:mysql://localhost", "root","123");
+       conexaoBanco = DriverManager.getConnection("jdbc:mysql://localhost", "Gerente","123");
       System.out.println("Acessou o banco!!!");
   
 }
